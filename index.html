@@ -10,6 +10,15 @@
 </head>
 <body>
 <div id="vm">
+    <button v-on:click="primero++">Incrementar el Primero</button>
+    <button v-on:click="segundo++">Incrementar el Segundo</button>
+    <button v-on:click="tercero++">Incrementar el Tercero</button>
+    <button v-on:click="cuarto++">Incrementar el Cuarto</button>
+    <p>Primero: {{primero}}</p>
+    <p>Segundo: {{segundo}}</p>
+    <p>Tercero: {{tercero}}</p>
+    <p>Cuarto: {{cuarto}}</p>
+    <p>Total: {{total}}</p>
         
 </div>
 <script src="vue.js"></script>
