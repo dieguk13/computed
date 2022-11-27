@@ -5,6 +5,7 @@ new Vue({
         segundo:0,
         tercero:0,
         cuarto:0,
+        quinto:0,
         suma:0
     },
     computed: {
