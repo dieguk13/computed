@@ -10,7 +10,7 @@ new Vue({
     },
     computed: {
         total: function(){
-            return this.primero + this.segundo + this.tercero + this.cuarto;
+            return this.primero + this.segundo + this.tercero + this.cuarto + this.quinto;
         }
     }, 
     })
